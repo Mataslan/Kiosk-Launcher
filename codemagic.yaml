@@ -7,9 +7,6 @@ workflows:
       vars:
         BUILD_RELEASE: false
 
-    machine:
-      os: linux
-
     scripts:
       - name: Decode keystore (only if release)
         script: |
